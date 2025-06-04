@@ -22,7 +22,7 @@ public class DiaSemana {
        
         while (true) {
             
-            System.out.println("digite o dia da semana");
+            System.out.println("digite um  dia da semana de 1 a 7, ou 0 para encerrar o programa:");
             int dia = sc.nextInt();
 
             if (dia == 0) {
@@ -32,7 +32,7 @@ public class DiaSemana {
             }
 
             else if (dia >=1 && dia <= 7) {
-                System.out.println( "o dia escolhido foi" + dias.get(dia - 1));
+                System.out.println( "o dia escolhido foi " + dias.get(dia - 1));
                 
             }
             else{
